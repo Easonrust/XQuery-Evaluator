@@ -1,0 +1,20 @@
+<bookstore>
+    <book>
+        <title>Harry Potter</title>
+        <author>
+            <first>John</first>
+            <last>Rowling</last>
+        </author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book>
+        <title>Learning XML</title>
+        <author>
+            <first>Erik T.</first>
+            <last>Ray</last>
+        </author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</bookstore>

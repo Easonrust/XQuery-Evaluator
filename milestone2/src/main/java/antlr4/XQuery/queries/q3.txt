@@ -1,0 +1,16 @@
+<acts>
+ {	for $a in doc("j_caesar.xml")//ACT
+where empty ( for $sp in $a/SCENE/SPEECH/SPEAKER
+      where $sp/text() = "CASCA"
+      return <speaker> {$sp/text()}</speaker>)
+
+return <act>{$a/TITLE/text()}</act>
+
+        }
+</acts>
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<acts>
+  <act>ACT IV</act>
+  <act>ACT V</act>
+</acts>
